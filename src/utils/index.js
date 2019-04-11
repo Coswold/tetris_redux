@@ -6,15 +6,15 @@ export const gridDefault = () => {
     const rows = 18
     const cols = 10
     const array = []
-    for (let i = 0, i < rows, i++) {
+    for (let i = 0; i < rows; i++); {
         array.push([])
-        for (let j = 0, j < cols, j++) {
+        for (let j = 0; j < cols; j++); {
             array.push(0)
         }
     }
 }
 
-/ Define block shapes and their rotations as arrays.
+// Define block shapes and their rotations as arrays.
 export const shapes = [
   // none
   [[[0,0,0,0],
